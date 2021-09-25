@@ -6,38 +6,29 @@ body {
   background-position: top;
 }
 
-.navbar {
-  background-color: #D3D3D3 !important;
-}
-
 .page {
-  bottom: 10%;
-  left: 10%;
-  width: 43%;
-  position: absolute;
-  color: black;
-  background-color: #E3BF6A;
+  justify-content: flex-start;
 }
 
-.text {
-  font-family: 'Caveat', cursive;
-  border-style: solid;
-  border-color: #E3BF6A;
-  width: 100%;
-  margin: 20px;
-  padding: 20px;
-  font-size: 5em;
-}
 
 .title {
+  width: 100%;
+  position: relative;
+  left: 0;
+  top: 750px;
+}
+
+.title h1 {
   font-family: 'Shadows Into Light', cursive;
   font-size: 60px;
   width: 80%;
+  padding-left: 20px;
 }
-.sidenote {
+.title p {
   font-family: 'Shadows Into Light', cursive;
   font-size: 30px;
   width: 50%;
+  padding-left: 60px;
 }
 
 @media only screen and (max-width: 990px) {
@@ -45,6 +36,17 @@ body {
     width: 100%;
     left: 0;
     top: 100px;
-    justify-content: flex-start;
+    justify-content: center;
+  }
+  .title {
+    top: 500px;
+  }
+  .title h1 {
+    width: 100%;
+    text-align: center;
+  }
+  .title p {
+    width: 100%;
+    text-align: center;
   }
 }

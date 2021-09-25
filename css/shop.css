@@ -1,0 +1,119 @@
+body {
+  background-color: #D3D3D3;
+}
+
+.photo {
+  width: 50%;
+  height: 800px;
+  background-image: url(../images/cust_notes.jpg);
+  background-size: cover;
+}
+
+.text {
+  background-color: #F9AB69;
+  width: 50%;
+  height: 800px;
+  padding: 40px;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.articles {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  padding: 0;
+  font-family: 'Shadows Into Light', cursive;
+
+}
+
+.articles p {
+  color: black;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.article1 {
+  width: 20%;
+  background-image: url(../images/heart.jpg);
+  margin: auto;
+}
+.article2 {
+  width: 20%;
+  background-image: url(../images/thick_gold.jpg);
+}
+.article3 {
+  width: 20%;
+  background-image: url(../images/thin_silver.jpg);
+}
+.article4 {
+  width: 20%;
+  background-image: url(../images/thin_gold.jpg);
+}
+.article5 {
+  width: 20%;
+  background-image: url(../images/thick_silver.jpg);
+}
+
+.banner {
+  width: 35%;
+  background-color: #F9AB69;
+  text-transform: uppercase;
+  font-size: 15px;
+  position: relative;
+  left: 0;
+  top: 0px;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+  .page {
+    width: 100%;
+  }
+  .photo {
+    width: 100%;
+    height: 600px;
+  }
+  .text {
+    width: 100%;
+    height: 500px;
+  }
+  .articles {
+    height: 800px;
+  }
+  .article1 {
+    width: 100%;
+  }
+  .article2 {
+    width: 100%;
+  }
+  .article3 {
+    width: 100%;
+  }
+  .article4 {
+    width: 100%;
+  }
+  .article5 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .page {
+    width: 100%;
+  }
+  .photo {
+    width: 100%;
+    height: 500px;
+  }
+  .text {
+    width: 100%;
+    height: 800px;
+  }
+}
