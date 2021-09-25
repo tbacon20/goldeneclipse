@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  text-align: center;
+  font-variant: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  background-color: #E3BF6A;
+}
+
+/* Page Flex */
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 990px) {
+  .page {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+/* Custom NavBar */
+.bg-light {
+  background: white !important;
+  color: #89CFF0 !important;
+  font-family: 'Indie Flower', cursive !important;
+  font-size: 20px;
+}
+
+.navbar-nav {
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.navbar a.nav-link:hover {
+  background-color: #EFDBA4 !important;
+  color: #664A0E !important;
+  border-radius: 5px;
+}
+
+.ge-name {
+  font-size: 30px;
+}
+
+.navbar-brand {
+  margin: 0px;
+  align-items: center;
+}
+
+
+/*Footer Content*/
+.footer {
+  text-align: left;
+  background-color: #E3BF6A;
+  padding-top: 10px;
+  bottom: 0px;
+  width: 100%;
+  position: fixed;
+  height: 50px;
+}
+
+.button a {
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.button a:hover {
+  color: #000;
+  background-color: #89CFF0;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px;
+  border: 2px solid #89CFF0;
+}

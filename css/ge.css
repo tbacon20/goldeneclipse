@@ -1,0 +1,50 @@
+/*page content*/
+body {
+  background-image: url(../images/box_rings.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.navbar {
+  background-color: #D3D3D3 !important;
+}
+
+.page {
+  bottom: 10%;
+  left: 10%;
+  width: 43%;
+  position: absolute;
+  color: black;
+  background-color: #E3BF6A;
+}
+
+.text {
+  font-family: 'Caveat', cursive;
+  border-style: solid;
+  border-color: #E3BF6A;
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
+  font-size: 5em;
+}
+
+.title {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 60px;
+  width: 80%;
+}
+.sidenote {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 30px;
+  width: 50%;
+}
+
+@media only screen and (max-width: 990px) {
+  .page {
+    width: 100%;
+    left: 0;
+    top: 100px;
+    justify-content: flex-start;
+  }
+}
